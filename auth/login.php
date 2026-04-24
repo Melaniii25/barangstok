@@ -13,7 +13,7 @@
 
 <div class="container d-flex justify-content-center align-items-center min-vh-100">
     <div class="col-md-4">
-        <div class="card shadow-lg login-card">
+        <div class="card shadow-lg  border-0  rounded-4 login-card">
             <div class="card-body text-center">
                 <img src="../assets/img/logo.png" class="img-fluid d-block mx-auto mb-3" width="150" alt="Logo SIPATKA">
                 <h2 class="fs-4 text-center text-bold">Sistem Persediaan Barang</h2>
@@ -41,9 +41,17 @@
                             </span>
                         </div>
                     </div>
-                    <button class="btn btn-primary w-100 fw-bold" name="login">
+                    <div class="text-center mt-3">
+                        <span class="text-muted"> Belum punya akun? <a href="registrasi.php" class="fw-semibold text-decoration-none ms-1">
+                            Daftar sekarang </a>
+                        </span>
+                    </div>
+                    
+                    <div class="d-grid mt-4">
+                    <button class="btn btn-primary w-100 fw-bold rounded-3" name="login">
                         Login
                     </button>
+                    </div>
                 </form>
             </div>
         </div>
