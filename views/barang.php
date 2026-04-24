@@ -18,8 +18,6 @@
     });
     </script>
     <?php unset($_SESSION['message']); endif; ?>
-
-    <!-- CARD -->
     <div class="card shadow mb-4">
         <div class="card-header d-flex justify-content-between align-items-center">
             <h5 class="mb-0">Daftar Barang</h5>
@@ -122,7 +120,6 @@
                     <h5>Tambah Barang</h5>
                     <button class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
-
                 <div class="modal-body">
                     <label>Kode</label>
                     <input name="kd_barang" class="form-control mb-2" required>
@@ -135,7 +132,6 @@
                     <label>Harga</label>
                     <input name="harga" type="number" class="form-control mb-2"  required>
                 </div>
-
                 <div class="modal-footer">
                     <button name="tambah_barang" class="btn btn-primary">Simpan</button>
                 </div>
